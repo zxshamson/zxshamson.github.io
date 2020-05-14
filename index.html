@@ -1,333 +1,270 @@
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!-- <!DOCTYPE html> -->
+<html lang="en">
 <head>
-    <title>Personal Page of Xingshan Zeng</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Xingshan Zeng's Personal Page</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive HTML5 Website Landing Page for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
-    <link rel="shortcut icon" href="favicon.ico">  
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    
-    <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"
-/>
-    <!-- github acitivity css -->
-    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- Le styles -->
+    <link href="./assets_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets_files/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="./assets_files/yangqing.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="assets/js/html5shiv.js"></script>
     <![endif]-->
-    
-</head> 
+    <link rel="icon" href="./assets_files/favicon.ico">
+</head>
+
+<div class="visible-phone" id="blackBar">
+    <a href="#top">About</a>
+    <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
+    <!--<a href="#teaching">Teaching</a>-->
+    <!--<a target="_blank"
+       href="https://drive.google.com/open?id=16ZSY62e2LgWYXuYuX4GVbbJ3OnU9bwl8">CV</a>-->
+</div>
 
 <body>
-    <!-- ******HEADER****** --> 
-    <header class="header">
-        <div class="container">                       
-            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Xingshan Zeng" />
-            <div class="profile-content pull-left">
-                <h1 class="name">Xingshan Zeng</h1>
-                <h2 class="desc">A PhD Student in SEEM Department, CUHK</h2>   
-            </div><!--//profile-->
-                      
-        </div><!--//container-->
-    </header><!--//header-->
-    
-    <div class="container sections-wrapper">
-        <div class="row">
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>My name is Xingshan Zeng. I am currently a PhD student in Systems Engineering and Engineering Management (SEEM) Dapartment, The Chinese University of Hong Kong. My supervisor is Kam-Fai Wong. I got my bachelor's degree from the department of Computer Science and Technology, University of Science and Technology of China (USTC) in 2016. </p>    
-         
-                            <p>My research interests include Natural Language Processing (NLP), Social Media Analysis and Recommender Systems.</p>
-                         
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                
-                 <section class="publications section">
-                    <div class="section-inner">
-                        <h2 class="heading">Publications</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Microblog Conversation Recommendation via Joint Modeling of Topics and Discourse</h3>
-                                <p class="authors"><b>Xingshan Zeng</b>, Jing Li, Lu Wang, Nick Beauchamp, Sarah Shugars, and Kam-Fai Wong</p>
-                                <p class="info"><i>Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2018.</i></p>
-                                <p><a class="more-link" href="publications/1/conv_rec(final).pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Full paper</a>  &emsp; <a class="more-link" href="publications/1/conv_rec(slides).pdf" target="_blank"><i class="fa fa-file-powerpoint-o"></i> Sildes</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Joint Effects of Context and User History for Predicting Online Conversation Re-entries</h3>
-                                <p class="authors"><b>Xingshan Zeng</b>, Jing Li, Lu Wang, and Kam-Fai Wong</p>
-                                <p class="info"><i>Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics (ACL), 2019.</i></p>
-                                <p><a class="more-link" href="publications/2/re_entry_prediction(final).pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Full paper</a> &emsp; <a class="more-link" href="publications/2/re_entry_prediction(slides).pdf" target="_blank"><i class="fa fa-file-powerpoint-o"></i> Sildes</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Neural Conversation Recommendation with Online Interaction Modeling</h3>
-                                <p class="authors"><b>Xingshan Zeng</b>, Jing Li, Lu Wang, and Kam-Fai Wong</p>
-                                <p class="info"><i>Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP), 2019.</i></p>
-                                <p><a class="more-link" href="publications/3/neural_conv_rec(final).pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Full paper</a> &emsp; <a class="more-link" href="publications/3/neural_conv_rec(poster).pdf" target="_blank"><i class="fa fa-file-powerpoint-o"></i> Poster</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Dynamic Online Conversation Recommendation</h3>
-                                <p class="authors"><b>Xingshan Zeng</b>, Jing Li, Lu Wang, Zhiming Mao, and Kam-Fai Wong</p>
-                                <p class="info"><i>Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL), 2020.</i></p>
-                                <p><a class="more-link" href="publications/4/dy_conv_rec(final).pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Full paper</a> </p>
-                            </div><!--//item-->
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                
-                <section class="projects section">
-                    <div class="section-inner">
-                        <h2 class="heading">Projects</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Conversation Recommendation with Topics and Discourse <span class="label label-theme">Open Source</span></h3>
-                                <p class="summary">Implementation for my NAACL2018 paper: "Microblog Conversation Recommendation via Joint Modeling of Topics and Discourse".</p>
-                                <p><a class="more-link" href="https://github.com/zxshamson/conv-rec-jtd" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Re-entry Prediction <span class="label label-theme">Open Source</span></h3>
-                                <p class="summary">Implementation in PyTorch for my ACL2019 paper: "Joint Effects of Context and User History for Predicting Online Conversation Re-entries". </p>
-                                <p><a class="more-link" href="https://github.com/zxshamson/re-entry-prediction" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Neural Conversation Recommendation <span class="label label-theme">Open Source</span></h3>
-                                <p class="summary">Implementation in PyTorch for my EMNLP2019 paper: "Neural Conversation Recommendation with Online Interaction Modeling". </p>
-                                <p><a class="more-link" href="https://github.com/zxshamson/neural-conv-rec" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Dynamic Conversation Recommendation <span class="label label-theme">Open Source</span></h3>
-                                <p class="summary">Implementation in PyTorch for my ACL2020 paper: "Dynamic Online Conversation Recommendation". </p>
-                                <p><a class="more-link" href="https://github.com/zxshamson/dy-conv-rec" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-                            </div><!--//item-->
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
-                
-                <!--
-                <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">??? - <span class="place"><a href="#">???</a></span> <span class="year">(??? - Present)</span></h3>
-                                <p>Still no work experience!</p> 
-                            </div>    
-                        </div>  
-                    </div>                
-                </section> -->
 
-                <section class="professional section">
-                    <div class="section-inner">
-                        <h2 class="heading">Professional Experience</h2>
-                        <div class="content">
-                            <p><b>2020</b>: PC member of AAAI, ACL, EMNLP, AACL, etc. </p>    
-         
-                            <p><b>2019</b>: PC member of EMNLP; Secondary Reviewer of ACL, NAACL.</p>
+<div class="container span3 hidden-phone">
+    <div id="floating_sidebar" class="span3">
+        <!-- We use a fancy nav bar if there is enough space -->
+        <!--<hr class="hidden-phone">-->
+        <br>
+        <ul class="nav nav-list bs-docs-sidenav hidden-phone">
+            <li><a href="#top">About</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!--<li><a href="#teaching">Teaching</a></li>-->
+            <!--<li><a target="_blank"
+                   href="https://drive.google.com/open?id=16ZSY62e2LgWYXuYuX4GVbbJ3OnU9bwl8">CV</a>
+            </li>-->
+        </ul>
+        <hr class="hidden-phone">
+        <div class="text-center hidden-phone">
+            <img src="assets_files/me.jpeg" alt="photo" class="logo-image">
+            <br><br>
+            zxshamson AT gmail.com <br>
+        </div>
 
-                            <p><b>2018</b>: PC member of EMNLP; Secondary Reviewer of ACL, NAACL.</p>
-                         
-                        </div><!--//content-->
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
+        <!-- Otherwise, we simply use a flat list of links -->
 
-                <section class="other section">
-                    <div class="section-inner">
-                        <h2 class="heading">Other Reports</h2>
-                        <div class="content">    
-                                               
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="others/1stversion-survey-predictions-interactions.pdf" target="_blank">
-                                <img class="img-responsive project-image" src="others/1stversion-survey-predictions-interactions.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title">A Survey of Predictions and Interactions Modeling on Online Social Media</h3>
-                                    <p>This is a survey done by June 2018.</p>
-                                    <p>Abstract: This survey focuses on tasks about predictions and interactions modeling on Online social media. These tasks can be divided into two categories, post level and conversational level, based on the target items. After the description and analysis of current methods for these tasks, we have found the problems existing, and point out a potential direction for future work.</p>
-                                    <p><a class="more-link" href="others/1stversion-survey-predictions-interactions.pdf" target="_blank"><i class="fa fa-external-link"></i> Full version</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </section><!--//section-->
+    </div>
+</div>
 
 
-            </div><!--//primary-->
+<div class="container">
 
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                 <aside class="info aside section">
-                    <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Hong Kong, China</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">xszeng@se.cuhk.edu.hk</a></li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">zxshamson@gmail.com</a></li>
-                                <li><i class="fa fa-external-link-square"></i><span class="sr-only">Link:</span><a href="#">https://zxshamson.github.io/</a></li>
-                            </ul>
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//aside-->
-                
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="content">
-                            <div class="item">                      
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> PhD of Systems Eng. &amp; Eng. Management</h3>
-                                <h4 class="university">The Chinese University of Hong Kong <span class="year">(2016-now)</span></h4>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> B.Eng of Computer Science &amp; Technology</h3>
-                                <h4 class="university">University of Science and Technology of China <span class="year">(2012-2016)</span></h4>
-                            </div><!--//item-->
-                            <!--
-                            <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i>Science &amp; Tech. of Communication &amp; Policy</h3>
-                                <h4 class="university">University of Science and Technology of China <span class="year">(2012-2013, later transferred to CS)</span></h4>
-                            </div>-->
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+    <div class="row">
 
-                <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
-                        <div class="content">
-                            
-                            <div class="skillset">
-                               
-                                <div class="item">
-                                    <h3 class="level-title">Python<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="85%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">C/C++<span class="level-label">Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="70%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                                
-                                <div class="item">
-                                    <h3 class="level-title">Java<span class="level-label">Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="65%">
-                                        </div>                                      
-                                    </div><!--//level-bar-->                                 
-                                </div><!--//item-->
-                            
-                            </div>              
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
-                </aside><!--//section-->
-                            
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li class="item">
-                                    <span class="title"><strong>Hakka Chinese:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>Chinese:</strong></span>
-                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>Cantonese:</strong></span>
-                                    <span class="level">Fluent <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
-                                </li><!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>English:</strong></span>
-                                    <span class="level">Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
-                                </li><!--//item-->
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
+        <div class="span9">
+            <br>
+            <h3>
+                Xingshan Zeng (曾幸山)
+            </h3>
+            <h5>
+                zxshamson AT gmail.com
+            / <a target="_blank"
+                 href="https://scholar.google.com/citations?user=Ca08I6AAAAAJ&hl=en">Google Scholar</a>
+            / <a target="_blank" 
+                 href="https://github.com/zxshamson">GitHub</a>
+<!--             / <mark>actively looking for job</mark> -->
+            </h5>
+            <!-- Do I want to show a pic on the phone screen?
+            <div class="text-center visible-phone">
+                <img src="assets/img/Yihui.png" alt="photo" width="150px"/>
+            </div>
+            -->
+            <a class="visible-phone pull-left" href="http://daggerfs.com/index.html#">
+                <img class="media-object" src="assets_files/me.jpeg" width="96px" style="margin: 0px 10px">
+            </a>
+            <p>I am currently a PhD student in Systems Engineering and Engineering Management (SEEM) Dapartment, The Chinese University of Hong Kong. My supervisor is Prof. <a target="_blank" href="http://www.se.cuhk.edu.hk/people/academic-staff/prof-wong-kam-fai/">Kam-Fai Wong</a>. I got my B.S. degree from the department of Computer Science and Technology, University of Science and Technology of China (USTC) in 2016. </p>  
+
+            <p>My research interests include Natural Language Processing (NLP), Social Media Analysis and Recommender Systems.</p>
+ 
+            <p>I served as a PC member for EMNLP2018, EMNLP2019, AAAI2020, ACL2020, EMNLP2020, AACL2020, etc. </p>
+
+
+            <!--
+             *** Publications ***
+            -->
+            <h3>
+                <a name="publications"></a> Publications
+            </h3>
+            <div class="media">
+                <a name="fsaf" class="pull-left">
+                    <img class="media-object" src="publications/1/model.pdf" width="96px" height="96px">
+                </a>
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+                             Microblog Conversation Recommendation via Joint Modeling of Topics and Discourse
+                        </strong><br>
+                        <strong>Xingshan Zeng</strong>, Jing Li, Lu Wang, Nick Beauchamp, Sarah Shugars, and Kam-Fai Wong. <strong>NAACL 2018</strong>
+                        <a target="_blank"
+                           href="publications/1/conv_rec(final).pdf">[PDF]</a>   
+                        <a target="_blank"
+                           href="publications/1/conv_rec(slides).pdf">[Slides]</a> 
+                        <a target="_blank"
+                           href="https://github.com/zxshamson/conv-rec-jtd">[Code]</a>   
+                    </p>
+                    <p class="abstract-text">
+                        Millions of conversations are generated every day on social media platforms. With limited attention, it is challenging for users to select which discussions they would like to participate in. Here we propose a new method for microblog conversation recommendation. While much prior work has focused on post-level recommendation, we exploit both the conversational context, and user content and behavior preferences. We propose a statistical model that jointly captures: (1) topics for representing user interests and conversation content, and (2) discourse modes for describing user replying behavior and conversation dynamics. Experimental results on two Twitter datasets demonstrate that our system outperforms methods that only model content without considering discourse.
+                    </p>
+                </div>
+            </div>
+
+            <div class="media">
+                <a name="fsaf" class="pull-left">
+                    <img class="media-object" src="publications/2/model.pdf" width="96px" height="96px">
+                </a>
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+                             Joint Effects of Context and User History for Predicting Online Conversation Re-entries
+                        </strong><br>
+                        <strong>Xingshan Zeng</strong>, Jing Li, Lu Wang, and Kam-Fai Wong. <strong>ACL 2019</strong>
+                        <a target="_blank"
+                           href="publications/2/re_entry_prediction(final).pdf">[PDF]</a>   
+                        <a target="_blank"
+                           href="publications/2/re_entry_prediction(slides).pdf">[Slides]</a> 
+                        <a target="_blank"
+                           href="https://github.com/zxshamson/re-entry-prediction">[Code&ampData]</a>  
+                        <a target="_blank"
+                           href="https://arxiv.org/abs/1906.01185">[arXiv]</a>   
+                    </p>
+                    <p class="abstract-text">
+                        As the online world continues its exponential growth, interpersonal communication has come to play an increasingly central role in opinion formation and change. In order to help users better engage with each other online, we study a challenging problem of re-entry prediction foreseeing whether a user will come back to a conversation they once participated in. We hypothesize that both the context of the ongoing conversations and the users’ previous chatting history will affect their continued interests in future engagement. Specifically, we propose a neural framework with three main layers, each modeling context, user history, and interactions between them, to explore how the conversation context and user chatting history jointly result in their re-entry behavior. We experiment with two large-scale datasets collected from Twitter and Reddit. Results show that our proposed framework with bi-attention achieves an F1 score of 61.1 on Twitter conversations, outperforming the state-of-the-art methods from previous work.
+                    </p>
+                </div>
+            </div>
+
+            <div class="media">
+                <a name="fsaf" class="pull-left">
+                    <img class="media-object" src="publications/3/model.pdf" width="96px" height="96px">
+                </a>
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+                             Neural Conversation Recommendation with Online Interaction Modeling
+                        </strong><br>
+                        <strong>Xingshan Zeng</strong>, Jing Li, Lu Wang, and Kam-Fai Wong. <strong>EMNLP 2019</strong>
+                        <a target="_blank"
+                           href="publications/3/neural_conv_rec(final).pdf">[PDF]</a>   
+                        <a target="_blank"
+                           href="publications/3/neural_conv_rec(poster).pdf">[Poster]</a> 
+                        <a target="_blank"
+                           href="https://github.com/zxshamson/neural-conv-rec">[Code&ampData]</a>    
+                    </p>
+                    <p class="abstract-text">
+                        The prevalent use of social media leads to a vast amount of online conversations being produced on a daily basis. It presents a concrete challenge for individuals to better discover and engage in social media discussions. In this paper, we present a novel framework to automatically recommend conversations to users based on their prior conversation behaviors. Built on neural collaborative filtering, our model explores deep semantic features that measure how a user’s preferences match an ongoing conversation’s context. Furthermore, to identify salient characteristics from interleaving user interactions, our model incorporates graph-structured networks, where both replying relations and temporal features are encoded as conversation context. Experimental results on two large-scale datasets collected from Twitter and Reddit show that our model yields better performance than previous state-of-the-art models, which only utilize lexical features and ignore past user interactions in the conversations.
+                    </p>
+                </div>
+            </div>
+
+            <div class="media">
+                <a name="fsaf" class="pull-left">
+                    <img class="media-object" src="publications/4/model.pdf" width="96px" height="96px">
+                </a>
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+                             Dynamic Online Conversation Recommendation
+                        </strong><br>
+                        <strong>Xingshan Zeng</strong>, Jing Li, Lu Wang, Zhiming Mao, and Kam-Fai Wong. <strong>ACL 2020</strong>
+                        <a target="_blank"
+                           href="publications/4/dy_conv_rec(final).pdf">[PDF]</a>   
+                        <a target="_blank"
+                           href="https://github.com/zxshamson/dy-conv-rec">[Code&ampData]</a>    
+                    </p>
+                    <p class="abstract-text">
+                        Trending topics in social media content evolve over time, and it is therefore crucial to understand social media users and their interpersonal communications in a dynamic manner. In this research we study dynamic online conversation recommendation, to help users engage in conversations that satisfy their evolving interests. Different from works in conversation recommendation which assume static user interests, our model captures the temporal aspects of user interests. Moreover, our model can cater for cold start problem where conversations are new and unseen in training. We propose a neural architecture to analyze changes of user interactions and interests over time, whose result is used to predict which discussions the users are likely to enter. We conduct experiments on large-scale collections of Reddit conversations. Results on three subreddits show that our model significantly outperforms state-of-the-art models based on static assumption of user interests. We further evaluate performance in cold start, and observe consistently better performance by our model when considering various degrees of sparsity of user’s chatting history and conversation contexts. Lastly, our analysis also confirms the change of user interests. This further justify the advantage and efficacy of our model.
+                    </p>
+                </div>
+            </div>
                 
-                
-                <aside class="interest section">
-                    <div class="section-inner">
-                        <h2 class="heading">Interests</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-gamepad"></i> League of Legends</li>
-                                <li><i class="fa fa-mobile-phone"></i>   Clash of Clans &amp; Brawl Stars</li>
-                                <li><i class="fa fa-book"></i> Martial arts novel &amp; Comic</li>
-                                <li><i class="fa fa-futbol-o"></i> Table Tennis</li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-                
-                
-                <aside class="friend section">
-                    <div class="section-inner">
-                        <h2 class="heading">Friend's Links</h2>
-                        <div class="content">
+
+            <!--
+             *** Projects ***
+            -->
+            <h3>
+                <a name="projects"></a> Projects
+            </h3>
+
+            <div class="media">
+                <a class="pull-left">
+                    <img class="media-object"
+                         src="reports/survey1/1stversion-survey-predictions-interactions.png"
+                         width="96px" height="96px">
+                </a>
+                <div class="media-body">
+                    <p class="media-heading">
+                        <strong>
+                            A Survey of Predictions and Interactions Modeling on Online Social Media
+                        </strong>
+                        <a target="_blank"
+                           href="reports/survey1/1stversion-survey-predictions-interactions.pdf">[PDF]</a>
+                    </p>
+                    <p class="abstract-text">
+                    This is a survey done by June 2018. <br>
+                    Abstract: This survey focuses on tasks about predictions and interactions modeling on Online social media. These tasks can be divided into two categories, post level and conversational level, based on the target items. After the description and analysis of current methods for these tasks, we have found the problems existing, and point out a potential direction for future work.
+                    </p>
+                </div>
+            </div>
+
+            
+            <!-- Footer
+            ================================================== -->
+            <hr>
+            <footer class="footer">
+                <div class="row">
+                    <h4 class="heading">Friend's Links</h4>
+                    <div class="content">
                             <ul class="list-unstyled">
                                 <li><a href="http://tao93.top/" target="_blank"><i class="fa fa-external-link"></i> Tao</a></li>
                                 <li><a href="http://shikaiwi.github.io/" target="_blank"><i class="fa fa-external-link"></i> Shikai</a></li>
                                 <li><a href="https://ja1r0.github.io/" target="_blank"><i class="fa fa-external-link"></i> Jairo</a></li>
                             </ul>
-                            
-                            <hr/>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-              
-            </div><!--//secondary-->    
-        </div><!--//row-->
-    </div><!--//masonry-->
-    
-    <!-- ******FOOTER****** --> 
-    <footer class="footer">
-        <div class="container text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Personal Page of Xingshan Zeng</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
- 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
-    <!-- github calendar plugin -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
-    <!-- github activity plugin -->
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
-</body>
-</html> 
+       
+                    </div>
+                <hr>
+                </div>
+                <div class="row">
+                    <div class="span12">
+                        <p>
+                            modified from <a target="_blank" href="http://yihui-he.github.io/">© Yihui He's Page</a>
+                        </p>
+                    </div>
+                </div>
 
+            </footer>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!--
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
+    <script src="assets/js/holder/holder.js"></script>
+    <script src="assets/js/application.js"></script>
+-->
